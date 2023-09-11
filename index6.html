@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    table, td, th {
+    border: 1px solid black;
+    }
+    th{
+        text-align: center;
+        border-radius: 10px;
+    }
+    td{
+        text-align: left;
+        border-radius: 10px
+        ;
+    }
+    #table1 {
+      border-collapse: separate;
+      border-radius: 10px;
+    }
+    #table2{
+        border-color: white;
+        
+    }
+    #table2 td{
+        margin:20px;
+        height: 30px;
+        width:75px;
+        border-color: rgb(50, 255, 47);
+        border-width: 2px;
+    }
+    
+    </style>
+</head>
+
+<body >
+    <table id="table1" bgcolor="lightblue" >
+        <tr>
+            <th width="200px">Firstname</th>
+            <th width="200px">Lastname</th>
+            <th width="100px">Age</th>
+        </tr>
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>80</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <table id ="table2" style="border-collapse: separate; " cellspacing="10px">
+        <tr>
+            <td style="border-radius: 3px;"></td>
+            <td style="border-radius: 7px;"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td style="border-radius: 5px;"></td>
+            <td style="border-radius: 1px;"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td style="border-radius: 50%"></td>
+            <td style="border-radius: 1px;"></td>
+            <td style="border-top-left-radius: 1px ; border-top-right-radius: 7px; border-bottom-left-radius: 7px; border-bottom-right-radius: 1px;"></td>
+        </tr>
+    </table>
+</body>
+</html>

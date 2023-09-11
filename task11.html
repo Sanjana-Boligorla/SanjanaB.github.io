@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            max-width: max-content;
+            margin: auto;
+        }
+        label{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        input[type=text],input[type=password]{
+            width: 400px;
+            height:25px;
+            border-radius: 0px;
+            border-width: 1px;
+            border-right-width: 0px;
+            border-color: lightgray;
+        }
+        input[type=submit]{
+            width: 408px;
+            height: 27px;
+            box-sizing: border-box;
+            background-color: rgb(12, 190, 12);
+            border: 0px;
+            color: white;
+            
+        }
+        input[type=checkbox]{
+            accent-color: blue;
+        }
+        img{
+            height:175px;
+            padding-left: 85px;
+        }
+        #check{
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: small;
+        }
+        #s1{
+            text-align: end;
+        }
+        div{
+            width:auto;
+            background-color: rgb(242, 240, 240);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0px 5px 0pxs;
+            height: 60px;
+        
+        }
+        span{
+            margin-left: 220px;
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: small;
+        }
+        button{
+            background-color: red;
+            width: 80px;
+            border-radius: 5px;
+            color: white;
+            height:30px;
+            border: 0;
+            margin-top: 10px;
+            margin-left: 2px;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .a{
+  border-top: 1px solid lightgray;
+} 
+span{
+    color: black;
+}
+a{
+    color: black;
+}
+
+    </style>
+</head>
+<body>
+    <img src="usr.png"><br>
+    <label>Username<br>
+    <input type="text" placeholder="Enter Username"></label><br><br>
+    <label>Password<br>
+    <input type="password" placeholder="Enter password"></label><br><br>
+    <input type="submit" value="Login"><br><br>
+    <label id="check"><input type="checkbox">Remember me</label><br><br>
+    <div class="a">
+    <label id="s1"><button>Cancel</button><span>Forgot <a href=password.html>password?</a></span></label>
+    </div>
+
+</body>
+</html>
